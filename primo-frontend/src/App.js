@@ -12,7 +12,6 @@ function App() {
       <Header/>
       <header className="App-header">
         <Home />
-        <h1>We exist because Gamefaqs sucks!</h1>
       </header>
       <Footer/>
     </div>
