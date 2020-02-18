@@ -36,12 +36,14 @@ https://onsen.io/
 
 You import componenets like you would react-bootstrap. A few key differences however.
 
-# Import this!
+### Import this!
+
 import * as Ons from 'react-onsenui';
 
 As well as this!
 
-# Webpack CSS import
+### Webpack CSS import
+
 import 'onsenui/css/onsenui.css';
 import 'onsenui/css/onsen-css-components.css';
 
