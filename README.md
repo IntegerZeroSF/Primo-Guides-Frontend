@@ -22,3 +22,27 @@ Are you stuck in a game? Gotta look something up but don't want to watch a 20min
   - Skill Level
   - Tags
   - Content
+
+
+## React
+
+https://reactjs.org/
+
+The primary framework behind our front-end.
+
+## Onsen UI
+
+https://onsen.io/
+
+You import componenets like you would react-bootstrap. A few key differences however.
+
+# Import this!
+import * as Ons from 'react-onsenui';
+
+As well as this!
+
+# Webpack CSS import
+import 'onsenui/css/onsenui.css';
+import 'onsenui/css/onsen-css-components.css';
+
+You need both for elements to show properly.
