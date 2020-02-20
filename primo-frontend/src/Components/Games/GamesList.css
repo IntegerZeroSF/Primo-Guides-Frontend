@@ -1,0 +1,33 @@
+.gamesListBody {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center;
+    align-items: center; */
+    width: 100%;
+    margin: 5vw 10vw  ;
+}
+
+.gamesListGamesSearch {
+    width: 50%;
+    background-color: brown;
+    height: 30px;
+}
+
+.gamesListGameSearchbar{
+    width: 33%;
+    height: 3vh;
+}
+
+.gameListGamesSearchButton {
+    height: 3.5vh;
+    width : 8vh;
+    background-color: white;
+}
+
+.gameCarousel{
+
+}
+
+.gamesListBlogPosts {
+    
+}
