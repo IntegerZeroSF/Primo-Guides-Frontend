@@ -1,5 +1,5 @@
 import React from 'react';
-import './Header.css'
+import './Header.css';
 
 import * as Ons from 'react-onsenui'
 import 'onsenui/css/onsenui.css';

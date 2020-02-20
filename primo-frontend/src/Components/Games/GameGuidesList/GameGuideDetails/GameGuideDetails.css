@@ -1,0 +1,19 @@
+.gameGuideDeatilsBody {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px; 
+}
+
+.gameGuideDetailsSubTOC {
+    grid-area: 1 / 1 / 6 / 2;
+}
+
+.gameGuideDetailsMainContent {
+    grid-area: 1 / 2 / 6 / 6;
+}
+
+.gameGuideDetailsSub {
+    grid-area: 1 / 6 / 6 / 8;
+}
