@@ -6,12 +6,17 @@
     grid-row-gap: 0px; 
 }
 
+.guidesListSubspace {
+    grid-area: 1 / 1 / 2 / 5;
+}
+
 .guidesList {
-    grid-area: 1 / 1 / 6 / 5;
+    grid-area: 2 / 1 / 6 / 5;
 }
 
 .guidesListClasses {
     border: 1px solid black;
+    width: 100%;
 }
 
 .guideListSub {

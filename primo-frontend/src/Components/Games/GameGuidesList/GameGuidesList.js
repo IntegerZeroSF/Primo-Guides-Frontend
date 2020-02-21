@@ -5,6 +5,8 @@ function GameGuidesList() {
     return (
         <>
             <div className="gameGuidesBody">
+                {/* <div className="guidesListSubspace">
+                </div> */}
                 <div classname="guidesList">
                     <h3 className="guidesListTitle">Guides</h3>
                     <div className="guidesListClasses">

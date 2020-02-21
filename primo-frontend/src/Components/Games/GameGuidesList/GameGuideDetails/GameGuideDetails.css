@@ -10,10 +10,41 @@
     grid-area: 1 / 1 / 6 / 2;
 }
 
+.gameGuideDetailsSearch{
+    text-align: center;
+}
+
+.gameGuideDetailsTOC {
+    border: 1px solid black;
+    /* margin: 10px; */
+    padding: 20px;
+}
+
+.gameGuideDetailsBreadcrumbs{
+    color: #fe346e;
+}
+
 .gameGuideDetailsMainContent {
     grid-area: 1 / 2 / 6 / 6;
+    padding: 50px;
+    position: relative
+}
+
+.gameGuideDetailsGoBack {
+    position: absolute;
+    left: 50px;
+    bottom: 10px;
+}
+
+.gameGuideDetailsGoNext {
+    position: absolute;
+    right: 50px;
+    bottom: 10px;
 }
 
 .gameGuideDetailsSub {
     grid-area: 1 / 6 / 6 / 8;
+    background-color: #381460;
+    height: 100%;
+    text-align: center;
 }

@@ -1,0 +1,18 @@
+.blogListBody {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px; 
+}
+
+.blogListSubTitle {
+    grid-area: 1 / 1 / 2 / 4;
+    padding-left: 8vh;
+    padding-top: 4vh;
+}
+
+.blogListBodySub {
+    grid-area: 2 / 1 / 6 / 4;
+    padding-left: 10vh;
+}

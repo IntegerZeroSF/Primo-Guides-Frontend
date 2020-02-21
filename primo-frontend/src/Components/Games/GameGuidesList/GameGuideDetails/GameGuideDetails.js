@@ -6,7 +6,7 @@ function GameGuideDetails() {
         <>
             <div className="gameGuideDeatilsBody">
                 <div className="gameGuideDetailsSubTOC">
-                    <h1>Search</h1>
+                    <h1 className="gameGuideDetailsSearch">Search</h1>
                     <div className="gameGuideDetailsTOC">
                         <h5>Table of Contents</h5>
                         <ol>

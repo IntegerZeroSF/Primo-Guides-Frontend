@@ -18,7 +18,10 @@ function App() {
       <Header/>
         {/* <Home /> */}
       {/* <GamesList/> */}
-      <GameGuidesList/>
+      {/* <GameGuidesList/> */}
+      {/* <GameGuideDetails/> */}
+      {/* <BlogList/> */}
+      <BlogDetails/>
       <Footer/>
     </div>
   );
