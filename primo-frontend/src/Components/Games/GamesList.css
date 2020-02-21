@@ -30,13 +30,17 @@
 .gamesListCatagories {
     border: 1px solid black;
     text-align: center;
-    
+    height: 100%;
+    padding: 20px;
 }
 
 .gameCarousel{
     grid-area:  2 / 2 / 5 / 5;
+    padding-left: 20px;
 }
 
 .gameListBodyBlog {
     grid-area:  5 / 2 / 6 / 5;
+    padding-left: 20px;
+
 }

@@ -23,7 +23,7 @@ function GameGuideDetails() {
                 <div className="gameGuideDetailsMainContent">
                     <div className="gameGuideDetailsBreadcrumbs">
                         <p>Breadcrumbs go here</p>
-                    <div>
+                    </div>
                     <h1>Title</h1>
                     <p>Stuff here</p>
                     <h5 className="gameGuideDetailsGoBack">...</h5>

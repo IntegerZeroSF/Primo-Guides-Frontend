@@ -1,5 +1,5 @@
 import React from 'react';
-import './GameGuideList.css';
+import './GameGuidesList.css';
 
 function GameGuidesList() {
     return (
@@ -12,15 +12,15 @@ function GameGuidesList() {
                     </div>
                     <div className="guidesListGuides">
                         <div className="guidesListGuideName">
-                            <h4 className="guidesListNameOfGuide">Speedrun Guide by XxSpeedDemonxX<h4><span className="guidesListGuideTags">Speedrun, Glitch Guide</span>
+                            <h4 className="guidesListNameOfGuide">Speedrun Guide by XxSpeedDemonxX</h4><span className="guidesListGuideTags">Speedrun, Glitch Guide</span>
                             <p className="guidesListGuideDescrip"> Short description </p>
                         </div>
                         <div className="guidesListGuideName">
-                            <h4 className="guidesListNameOfGuide">Speedrun Guide by XxSpeedDemonxX<h4><span className="guidesListGuideTags">Speedrun, Glitch Guide</span>
+                            <h4 className="guidesListNameOfGuide">Speedrun Guide by XxSpeedDemonxX</h4><span className="guidesListGuideTags">Speedrun, Glitch Guide</span>
                             <p className="guidesListGuideDescrip"> Short description </p>
                         </div>
                         <div className="guidesListGuideName">
-                            <h4 className="guidesListNameOfGuide">Speedrun Guide by XxSpeedDemonxX<h4><span className="guidesListGuideTags">Speedrun, Glitch Guide</span>
+                            <h4 className="guidesListNameOfGuide">Speedrun Guide by XxSpeedDemonxX</h4><span className="guidesListGuideTags">Speedrun, Glitch Guide</span>
                             <p className="guidesListGuideDescrip"> Short description </p>
                         </div>
                     </div>
@@ -33,4 +33,4 @@ function GameGuidesList() {
     )
 }
 
-export deafult GameGuidesList;
+export default GameGuidesList;
