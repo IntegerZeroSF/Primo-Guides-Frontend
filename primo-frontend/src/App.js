@@ -11,7 +11,7 @@ function App() {
   return (
     <div className="App">
       <Header/>
-        <Home />
+        {/* <Home /> */}
       <GamesList/>
       <Footer/>
     </div>
