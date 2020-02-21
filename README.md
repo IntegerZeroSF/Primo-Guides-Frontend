@@ -30,6 +30,15 @@ https://reactjs.org/
 
 The primary framework behind our front-end.
 
+## Color theme
+
+https://colorhunt.co/palette/172306
+
+ #381460
+ #b21f66
+ #fe346e
+ #ffbd69
+
 ## Onsen UI
 
 https://onsen.io/
