@@ -6,7 +6,7 @@ function GamesList() {
     return (
         <>
             <div className="gamesListBody">
-                <div className="gamesListBodySub">
+                <div className="gamesListBodySearch">
                     <form className="gamesListGameSearch">
                         <input type="text" placeholder="Search for a game here..." name="search" className="gamesListGameSearchbar"/>
                         <button type="submit" className="gameListGamesSearchButton">Search</button>
@@ -15,7 +15,7 @@ function GamesList() {
                 <div className="gameCarousel">
                     <h1>Carousel</h1>
                 </div>
-                <div className="gameListBlogPosts">
+                <div className="gameListBodyBlog">
                     <h1>A, B, C, D, etc, etc</h1>
                 </div>
             </div>

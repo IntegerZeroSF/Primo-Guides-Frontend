@@ -1,11 +1,7 @@
 import React from 'react';
 import './Home.css'
 
-import * as Ons from 'react-onsenui'
-import 'onsenui/css/onsenui.css';
-import 'onsenui/css/onsen-css-components.css';
 
-import {Page, Button} from 'react-onsenui';
 
 
 function Home() {

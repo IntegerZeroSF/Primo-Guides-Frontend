@@ -11,11 +11,9 @@ function App() {
   return (
     <div className="App">
       <Header/>
-      <header className="App-header">
         <Home />
-      </header>
-      <Footer/>
       <GamesList/>
+      <Footer/>
     </div>
   );
 }

@@ -1,20 +1,20 @@
 .homeBody {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    /* align-items: center; */
-    width: 100%;
-    margin: 5vw 10vw  ;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px; 
 }
 
 .homeBodySub {
     background-color: brown;
+    grid-area: 1 / 1 / 2 / 6;
 }
 
 .gameCarousel{
-
+    grid-area:  2 / 2 / 5 / 5;
 }
 
 .homeBlogPosts {
-    
+    grid-area:  5 / 2 / 6 / 5;
 }

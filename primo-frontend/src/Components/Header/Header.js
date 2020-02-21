@@ -1,11 +1,6 @@
 import React from 'react';
 import './Header.css';
 
-import * as Ons from 'react-onsenui'
-import 'onsenui/css/onsenui.css';
-import 'onsenui/css/onsen-css-components.css';
-
-import {Page, Toolbar, Button, ToolbarButton} from 'react-onsenui';
 
 function Header(){
     return(
