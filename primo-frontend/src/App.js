@@ -14,8 +14,8 @@ function App() {
       <Header />
       <header className="App-header" />
       <Switch>
-        <Route path="/" component={Home} />
-        <Route path="/Blog" component={BlogList} />
+        <Route path="/" exact component={Home} />
+        <Route path="/Blog" exact component={BlogList} />
       </Switch>
       <Footer />
     </div>

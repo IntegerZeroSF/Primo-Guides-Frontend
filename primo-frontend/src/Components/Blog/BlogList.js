@@ -3,7 +3,6 @@ import "./BlogList.css";
 import Link from "next/link";
 
 function BlogList() {
-<<<<<<< HEAD
     return (
         <>
             <div className="blogListBody">
@@ -42,30 +41,6 @@ function BlogList() {
             </div>
         </>
     )
-=======
-  return (
-    <>
-      <div className="blogListBody">
-        <div className="blogListBlogCard">
-          <h1 className="blogListBlogTitle">Blog Title</h1>
-          <p className="blogListBlogDescrip">Put something relevant here</p>
-        </div>
-        <div className="blogListBlogCard">
-          <h1 className="blogListBlogTitle">Blog Title</h1>
-          <p className="blogListBlogDescrip">Put something relevant here</p>
-        </div>
-        <div className="blogListBlogCard">
-          <h1 className="blogListBlogTitle">Blog Title</h1>
-          <p className="blogListBlogDescrip">Put something relevant here</p>
-        </div>
-        <div className="blogListBlogCard">
-          <h1 className="blogListBlogTitle">Blog Title</h1>
-          <p className="blogListBlogDescrip">Put something relevant here</p>
-        </div>
-      </div>
-    </>
-  );
->>>>>>> routes
 }
 
 export default BlogList;
