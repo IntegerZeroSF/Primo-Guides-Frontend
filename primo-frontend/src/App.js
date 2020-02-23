@@ -1,28 +1,23 @@
-import React from 'react';
+import React from "react";
+import Link from "next/link";
+import Header from "./Components/Header/Header.js";
+import Footer from "./Components/Footer/Footer.js";
+import Home from "./Components/Home/Home.js";
+import BlogList from "./Components/Blog/BlogList";
+import { BrowserRouter, Route, Switch } from "react-router-dom";
 
-
-import Header from './Components/Header/Header.js';
-import Footer from './Components/Footer/Footer.js';
-import Home from './Components/Home/Home.js';
-
-import GamesList from './Components/Games/GamesList.js'
-import GameGuidesList from './Components/Games/GameGuidesList/GameGuidesList.js'
-import GameGuideDetails from './Components/Games/GameGuidesList/GameGuideDetails/GameGuideDetails.js'
-
-import BlogList from './Components/Blog/BlogList.js'
-import BlogDetails from './Components/Blog/BlogDetails/BlogDetails.js'
+import GamesList from "./Components/Games/GamesList.js";
 
 function App() {
   return (
     <div className="App">
-      <Header/>
-        {/* <Home /> */}
-      {/* <GamesList/> */}
-      {/* <GameGuidesList/> */}
-      {/* <GameGuideDetails/> */}
-      {/* <BlogList/> */}
-      <BlogDetails/>
-      <Footer/>
+      <Header />
+      <header className="App-header" />
+      <Switch>
+        <Route path="/" component={Home} />
+        <Route path="/Blog" component={BlogList} />
+      </Switch>
+      <Footer />
     </div>
   );
 }
