@@ -9,7 +9,7 @@ function GameGuidesList() {
         <>
             <div className="gameGuidesBody">
                 <div className="guideListSub">
-                    <p>Picture goes here</p>
+                    <img src="https://images-ext-1.discordapp.net/external/2PhddcZBzm7kxpDGo7acLFPWEZtOYN9Bw9g4Iuy7lxw/https/www.mobygames.com/images/covers/l/452220-celeste-playstation-4-front-cover.jpg" alt="Cover Art"/>
                 </div>
                 <div className="guideListSub2">
                     <h3 className="guidesListTitle">Guides</h3>

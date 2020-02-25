@@ -78,7 +78,7 @@ function GameGuideDetails() {
                     <h5 className="gameGuideDetailsGoNext">Next =></h5>
                 </div>
                 <div className="gameGuideDetailsSub">
-                    <h1>Game Picture</h1>
+                    <img src="https://images-ext-1.discordapp.net/external/2PhddcZBzm7kxpDGo7acLFPWEZtOYN9Bw9g4Iuy7lxw/https/www.mobygames.com/images/covers/l/452220-celeste-playstation-4-front-cover.jpg" alt="Cover Art" width="90%"/>
                 </div>
             </div>
         </>

@@ -27,6 +27,7 @@
 .gameGuideDetailsMainContent {
     grid-area: 1 / 2 / 6 / 6;
     padding: 50px;
+    width: 75%;
     position: relative
 }
 
@@ -59,7 +60,8 @@
 
 .gameGuideDetailsSub {
     grid-area: 1 / 6 / 6 / 8;
-    background-color: rgb(56, 20, 96, .10);
+    /* background-color: rgb(56, 20, 96, .10); */
     height: 100%;
     text-align: center;
+    margin-top: 2vh;
 }
