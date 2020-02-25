@@ -1,6 +1,6 @@
 import React from "react";
 import "./Header.css";
-import {Switch} from "react-router-dom";
+import {Switch, Link} from "react-router-dom";
 
 // import { Page, Toolbar, Button, ToolbarButton } from "react-onsenui";
 
@@ -11,22 +11,22 @@ function Header() {
         <div className="headerDiv">
           <h1 className="headerTitle">
             <strong>
-              <a className="headerLink" href="/">Primo Guides</a>
+              <Link className="headerLink" to="/">Primo Guides</Link>
             </strong>
           </h1>
           <div className="headerButtonDiv">
             <span className="headerButton">
-              <a className="headerLink" href="/Blog">Blog</a>
+              <Link className="headerLink" to="/Blog">Blog</Link>
             </span>
             <span className="headerButton">
-              <a className="headerLink" href="/Games">Guides</a>
+              <Link className="headerLink" to="/Games">Guides</Link>
             </span>
             <span className="headerButton">
-              <a className="headerLink" href="/Login">Login</a>
+              <Link className="headerLink" to="/Login">Login</Link>
             </span>
           </div>
           <span className="headerSignUp">
-            Not a user yet? <a className="headerLink" href="/Signup">Sign up here!</a>
+            Not a user yet? <Link className="headerLink" to="/Signup">Sign up here!</Link>
           </span>
         </div>
       </Switch>

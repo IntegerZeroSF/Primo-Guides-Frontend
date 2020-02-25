@@ -1,6 +1,8 @@
 import React from "react";
 import "./BlogList.css";
 
+import {Link} from "react-router-dom";
+
 function BlogList() {
     return (
         <>
@@ -12,7 +14,7 @@ function BlogList() {
                 <div className="blogListBodySub">
                 {/* For loop to load blog posts. Each will have a card. */}
                     <div className="blogListBlogCard">
-                        <a href="/Blog/Post" className="blogListBlogTitle">Blog Title</a>
+                        <Link to="/Blog/Post" className="blogListBlogTitle">Blog Title</Link>
                         <p className="blogListBlogDescrip">
                             Put something relevant here
                         </p>
