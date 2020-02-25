@@ -14,12 +14,15 @@
 .gamesListGameSearchbar{
     width: 33%;
     height: 3vh;
+    border: 2px solid #381460;
 }
 
 .gameListGamesSearchButton {
     height: 3.5vh;
     width : 8vh;
-    background-color: white;
+    margin-left: 2px;
+    background-color: #381460;
+    color: #fe346e;
 }
 
 .gamesListBodySubCata {
@@ -27,8 +30,13 @@
     text-align: center;
 }
 
+.gamesListCatTitle {
+    color: #b21f66;
+    font-weight: 800;
+}
+
 .gamesListCatagories {
-    border: 1px solid black;
+    border: 2px solid #381460;
     text-align: center;
     height: 100%;
     padding: 20px;
@@ -42,5 +50,16 @@
 .gameListBodyBlog {
     grid-area:  5 / 2 / 6 / 5;
     padding-left: 20px;
+}
 
+.gamesListLink {
+    text-decoration: none;
+    font-size: larger;
+    color: #fe346e;
+    font-weight: 400;
+    padding-left: 100px;
+}
+
+.gamesListLink:hover {
+    color: #b21f66;
 }

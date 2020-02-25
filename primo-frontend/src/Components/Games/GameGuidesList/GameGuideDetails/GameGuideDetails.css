@@ -16,7 +16,7 @@
 
 .gameGuideDetailsTOC {
     border: 1px solid black;
-    /* margin: 10px; */
+    margin-left: 10px;
     padding: 20px;
 }
 
@@ -30,21 +30,36 @@
     position: relative
 }
 
+.gameGuideDetailsTitle {
+    color: #b21f66;
+}
+
+.gameGuideDetailsAuthor {
+    color: #b21f66;
+    margin-left: 2vh;
+}
+
 .gameGuideDetailsGoBack {
     position: absolute;
     left: 50px;
     bottom: 10px;
+    color: #fe346e;
+    font-size: 1vh;
+    font-weight: 700;
 }
 
 .gameGuideDetailsGoNext {
     position: absolute;
     right: 50px;
     bottom: 10px;
+    color: #fe346e;
+    font-size: 1vh;
+    font-weight: 700;
 }
 
 .gameGuideDetailsSub {
     grid-area: 1 / 6 / 6 / 8;
-    background-color: #381460;
+    background-color: rgb(56, 20, 96, .10);
     height: 100%;
     text-align: center;
 }

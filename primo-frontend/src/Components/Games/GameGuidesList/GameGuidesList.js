@@ -5,30 +5,33 @@ function GameGuidesList() {
     return (
         <>
             <div className="gameGuidesBody">
-                {/* <div className="guidesListSubspace">
-                </div> */}
-                <div classname="guidesList">
+                <div className="guideListSub">
+                    <p>Picture goes here</p>
+                </div>
+                <div className="guideListSub2">
                     <h3 className="guidesListTitle">Guides</h3>
                     <div className="guidesListClasses">
                         <h3> Speedrun | Glitch Guide | Walkthrough | Full Clear </h3>
                     </div>
-                    <div className="guidesListGuides">
+                </div>
+                <div className="guideListSub3">
+                     <div className="guidesListGuides">
+                        <a href="/Games/Guides/Guide" className="guidesListGuideName">
+                            <h4 className="guidesListNameOfGuide" href="/Games/Guides/Guide">Speedrun Guide by XxSpeedDemonxX</h4>
+                            <span className="guidesListGuideTags">Speedrun, Glitch Guide</span>
+                            <p className="guidesListGuideDescrip"> Short description </p>
+                        </a>
                         <div className="guidesListGuideName">
-                            <h4 className="guidesListNameOfGuide">Speedrun Guide by XxSpeedDemonxX</h4><span className="guidesListGuideTags">Speedrun, Glitch Guide</span>
+                            <h4 className="guidesListNameOfGuide">Speedrun Guide by XxSpeedDemonxX</h4>
+                            <span className="guidesListGuideTags">Speedrun, Glitch Guide</span>
                             <p className="guidesListGuideDescrip"> Short description </p>
                         </div>
                         <div className="guidesListGuideName">
-                            <h4 className="guidesListNameOfGuide">Speedrun Guide by XxSpeedDemonxX</h4><span className="guidesListGuideTags">Speedrun, Glitch Guide</span>
-                            <p className="guidesListGuideDescrip"> Short description </p>
-                        </div>
-                        <div className="guidesListGuideName">
-                            <h4 className="guidesListNameOfGuide">Speedrun Guide by XxSpeedDemonxX</h4><span className="guidesListGuideTags">Speedrun, Glitch Guide</span>
+                            <h4 className="guidesListNameOfGuide">Speedrun Guide by XxSpeedDemonxX</h4>
+                            <span className="guidesListGuideTags">Speedrun, Glitch Guide</span>
                             <p className="guidesListGuideDescrip"> Short description </p>
                         </div>
                     </div>
-                </div>
-                <div className="guideListSub">
-                    <p>Picture goes here</p>
                 </div>
             </div>
         </>

@@ -3,12 +3,39 @@ import Link from "next/link";
 import Header from "./Components/Header/Header.js";
 import Footer from "./Components/Footer/Footer.js";
 import Home from "./Components/Home/Home.js";
-import BlogList from "./Components/Blog/BlogList";
 import { BrowserRouter, Route, Switch } from "react-router-dom";
 
+import BlogList from "./Components/Blog/BlogList";
+import BlogDetails from "./Components/Blog/BlogDetails/BlogDetails.js"
+
 import GamesList from "./Components/Games/GamesList.js";
+import GamesGuidesList from "./Components/Games/GameGuidesList/GameGuidesList.js";
+import GameGuideDetails from "./Components/Games/GameGuidesList/GameGuideDetails/GameGuideDetails.js";
+
+
+import { useState, useEffect } from "react";
+
 
 function App() {
+
+  let [gameData, setGameData] = useState();
+  let [blogData, setBlogData] = useState();
+  let [isLogined, setLogin] = useState(false);
+  let [user, setUser] = useState();
+
+  useEffect(() => {
+    fetch("www.ourAPIkek.lul/Games")
+      .then(res => res.json())
+      .then(gameRes => setGameData(gameRes.results));
+  }, []);
+
+  useEffect(() => {
+    fetch("www.ourAPIkek.lul/blogs")
+      .then(res => res.json())
+      .then(blogRes => setBlogData(blogRes.results));
+  }, []);
+
+
   return (
     <div className="App">
       <Header />
@@ -16,6 +43,10 @@ function App() {
       <Switch>
         <Route path="/" exact component={Home} />
         <Route path="/Blog" exact component={BlogList} />
+        <Route path="/Blog/Post" exact component={BlogDetails} />
+        <Route path="/Games" exact component={GamesList} />
+        <Route path="/Games/Guides" exact component={GamesGuidesList} />
+        <Route path="/Games/Guides/Guide" exact component={GameGuideDetails} />
       </Switch>
       <Footer />
     </div>

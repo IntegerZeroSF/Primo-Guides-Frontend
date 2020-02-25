@@ -5,7 +5,7 @@ import './Footer.css';
 function Footer(){
     return(
         <>
-            <div className="footer">But like no really, this footer is proof...</div>
+            <div className="footer">Created by Raymond and Arty</div>
         </>
     )
 }

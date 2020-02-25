@@ -4,7 +4,7 @@
     grid-template-rows: 1fr;
     grid-column-gap: 0px;
     grid-row-gap: 0px; 
-    border-bottom: 5px solid red;
+    border-bottom: 5px solid #b21f66;
     box-shadow: 0 2px 5px  black;
     margin: 2px;
     width: 100;
@@ -22,8 +22,13 @@
     
 }
 
-.headerTitle:hover {
-    
+.headerLink {
+    text-decoration: none;
+    color: #fe346e;
+}
+
+.headerLink:hover {
+    color: #b21f66;
 }
 
 .headerButton {
@@ -36,7 +41,7 @@
 }
 
 .headerButton:hover {
-    border-bottom: 5px solid black;
+    border-bottom: 5px solid #381460;
 
 }
 

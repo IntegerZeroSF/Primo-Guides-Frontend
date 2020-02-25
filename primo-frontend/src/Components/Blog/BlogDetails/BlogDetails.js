@@ -13,9 +13,32 @@ function BlogDetails() {
                 </div>
                 <div className="blogDetailsMain">
                     <p>
-                        Hey, VSAUCE here! Did you know we make cool things!
-                        <br/>
-                        Find out more later. LEL
+                       She looked at her student wondering if she could ever get through. 
+                       "You need to learn to think for yourself," she wanted to tell him. 
+                       "Your friends are holding you back and bringing you down." 
+                       But she didn't because she knew his friends were all that he had and even if that meant a life of misery, 
+                       he would never give them up.
+                    </p>
+                    <p>
+                       She looked at her student wondering if she could ever get through. 
+                       "You need to learn to think for yourself," she wanted to tell him. 
+                       "Your friends are holding you back and bringing you down." 
+                       But she didn't because she knew his friends were all that he had and even if that meant a life of misery, 
+                       he would never give them up.
+                    </p>
+                    <p>
+                       She looked at her student wondering if she could ever get through. 
+                       "You need to learn to think for yourself," she wanted to tell him. 
+                       "Your friends are holding you back and bringing you down." 
+                       But she didn't because she knew his friends were all that he had and even if that meant a life of misery, 
+                       he would never give them up.
+                    </p>
+                    <p>
+                       She looked at her student wondering if she could ever get through. 
+                       "You need to learn to think for yourself," she wanted to tell him. 
+                       "Your friends are holding you back and bringing you down." 
+                       But she didn't because she knew his friends were all that he had and even if that meant a life of misery, 
+                       he would never give them up.
                     </p>
                     <div className="blogDetailsRelated">
                         <p>Related content...</p>

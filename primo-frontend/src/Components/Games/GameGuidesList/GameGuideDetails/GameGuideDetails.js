@@ -24,13 +24,61 @@ function GameGuideDetails() {
                     <div className="gameGuideDetailsBreadcrumbs">
                         <p>Breadcrumbs go here</p>
                     </div>
-                    <h1>Title</h1>
-                    <p>Stuff here</p>
+                    <h1 className="gameGuideDetailsTitle">Speedrunning guide for Celeste</h1>
+                    <h3 className="gameGuideDetailsAuthor">By: XxSpeedrunKingxX</h3>
+                    <p>This is important to remember. 
+                        Love isn't like pie. 
+                        You don't need to divide it among all your friends and loved ones. 
+                        No matter how much love you give, you can always give more. 
+                        It doesn't run out, so don't try to hold back giving it as if it may one day run out. 
+                        Give it freely and as much as you want.
+                    </p>
+                    <br/>
+                    <p>This is important to remember. 
+                        Love isn't like pie. 
+                        You don't need to divide it among all your friends and loved ones. 
+                        No matter how much love you give, you can always give more. 
+                        It doesn't run out, so don't try to hold back giving it as if it may one day run out. 
+                        Give it freely and as much as you want.
+                    </p>
+                    <br/>
+                    <p>This is important to remember. 
+                        Love isn't like pie. 
+                        You don't need to divide it among all your friends and loved ones. 
+                        No matter how much love you give, you can always give more. 
+                        It doesn't run out, so don't try to hold back giving it as if it may one day run out. 
+                        Give it freely and as much as you want.
+                    </p>
+                    <p>She looked at her student wondering if she could ever get through. 
+                        "You need to learn to think for yourself," she wanted to tell him. 
+                        "Your friends are holding you back and bringing you down." 
+                        But she didn't because she knew his friends were all that he had and even if that meant a life of misery, 
+                        he would never give them up.
+                    </p>
+                    <p>She looked at her student wondering if she could ever get through. 
+                        "You need to learn to think for yourself," she wanted to tell him. 
+                        "Your friends are holding you back and bringing you down." 
+                        But she didn't because she knew his friends were all that he had and even if that meant a life of misery, 
+                        he would never give them up.
+                    </p>
+                    <p>She looked at her student wondering if she could ever get through. 
+                        "You need to learn to think for yourself," she wanted to tell him. 
+                        "Your friends are holding you back and bringing you down." 
+                        But she didn't because she knew his friends were all that he had and even if that meant a life of misery, 
+                        he would never give them up.
+                    </p>
+                    <p>
+                       She looked at her student wondering if she could ever get through. 
+                       "You need to learn to think for yourself," she wanted to tell him. 
+                       "Your friends are holding you back and bringing you down." 
+                       But she didn't because she knew his friends were all that he had and even if that meant a life of misery, 
+                       he would never give them up.
+                    </p>
                     <h5 className="gameGuideDetailsGoBack">...</h5>
                     <h5 className="gameGuideDetailsGoNext">Next =></h5>
                 </div>
                 <div className="gameGuideDetailsSub">
-                    <h1>Game Pictures</h1>
+                    <h1>Game Picture</h1>
                 </div>
             </div>
         </>

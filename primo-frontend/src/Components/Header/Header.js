@@ -1,8 +1,8 @@
 import React from "react";
 import "./Header.css";
-import { BrowserRouter, Route, Switch } from "react-router-dom";
+import {Switch} from "react-router-dom";
 
-import { Page, Toolbar, Button, ToolbarButton } from "react-onsenui";
+// import { Page, Toolbar, Button, ToolbarButton } from "react-onsenui";
 
 function Header() {
   return (
@@ -11,22 +11,22 @@ function Header() {
         <div className="headerDiv">
           <h1 className="headerTitle">
             <strong>
-              <a href="/">Primo Guides</a>
+              <a className="headerLink" href="/">Primo Guides</a>
             </strong>
           </h1>
           <div className="headerButtonDiv">
             <span className="headerButton">
-              <a href="/Blog">Blog</a>
+              <a className="headerLink" href="/Blog">Blog</a>
             </span>
             <span className="headerButton">
-              <a href="/Guides">Guides</a>
+              <a className="headerLink" href="/Games">Guides</a>
             </span>
             <span className="headerButton">
-              <a href="/Login">Login</a>
+              <a className="headerLink" href="/Login">Login</a>
             </span>
           </div>
           <span className="headerSignUp">
-            Not a user yet? <a href="/Signup">Sign up here!</a>
+            Not a user yet? <a className="headerLink" href="/Signup">Sign up here!</a>
           </span>
         </div>
       </Switch>
