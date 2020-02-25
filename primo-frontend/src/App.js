@@ -22,18 +22,19 @@ function App() {
   let [isLogined, setLogin] = useState(false);
   let [user, setUser] = useState();
 
-  useEffect(() => {
-    fetch("www.ourAPIkek.lul/Games")
-      .then(res => res.json())
-      .then(gameRes => setGameData(gameRes.results));
-  }, []);
+  // useEffect(() => {
+  //   fetch("localhost:8000/games")
+  //     .then(res => res.json())
+  //     .then(gameRes => setGameData(gameRes.results));
+  // }, []);
 
-  useEffect(() => {
-    fetch("www.ourAPIkek.lul/blogs")
-      .then(res => res.json())
-      .then(blogRes => setBlogData(blogRes.results));
-  }, []);
+  // useEffect(() => {
+  //   fetch("www.ourAPIkek.lul/blogs")
+  //     .then(res => res.json())
+  //     .then(blogRes => setBlogData(blogRes.results));
+  // }, []);
 
+  console.log(gameData)
 
   return (
     <div className="App">
