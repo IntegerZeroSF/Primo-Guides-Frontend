@@ -1,7 +1,7 @@
 import React from 'react';
 import './GamesList.css'
 
-// import {Switch} from "react-router-dom";
+import {Link} from "react-router-dom";
 
 
 function GamesList() {
@@ -33,10 +33,10 @@ function GamesList() {
                     <h1 className="gamesListCatTitle">Game's List</h1>
                         {/* for loop with a .map function for all game data */}
                         <div>
-                            <a className="gamesListLink" href="/Games/Guides"> Celeste </a>
+                            <Link className="gamesListLink" to="/Games/Guides"> Celeste </Link>
                         </div>
                         <div>
-                            <a className="gamesListLink" href="/Games/Guides"> Sekiro </a>
+                            <Link className="gamesListLink" to="/Games/Guides"> Sekiro </Link>
                         </div>
 
                 </div>

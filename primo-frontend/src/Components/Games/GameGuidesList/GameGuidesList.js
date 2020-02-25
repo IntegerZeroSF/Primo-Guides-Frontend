@@ -1,6 +1,9 @@
 import React from 'react';
 import './GameGuidesList.css';
 
+import {Link} from "react-router-dom";
+
+
 function GameGuidesList() {
     return (
         <>
@@ -16,11 +19,11 @@ function GameGuidesList() {
                 </div>
                 <div className="guideListSub3">
                      <div className="guidesListGuides">
-                        <a href="/Games/Guides/Guide" className="guidesListGuideName">
+                        <Link to="/Games/Guides/Guide" className="guidesListGuideName">
                             <h4 className="guidesListNameOfGuide" href="/Games/Guides/Guide">Speedrun Guide by XxSpeedDemonxX</h4>
                             <span className="guidesListGuideTags">Speedrun, Glitch Guide</span>
                             <p className="guidesListGuideDescrip"> Short description </p>
-                        </a>
+                        </Link>
                         <div className="guidesListGuideName">
                             <h4 className="guidesListNameOfGuide">Speedrun Guide by XxSpeedDemonxX</h4>
                             <span className="guidesListGuideTags">Speedrun, Glitch Guide</span>
