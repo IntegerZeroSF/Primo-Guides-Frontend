@@ -1,5 +1,4 @@
 import React from "react";
-import Link from "next/link";
 import Header from "./Components/Header/Header.js";
 import Footer from "./Components/Footer/Footer.js";
 import Home from "./Components/Home/Home.js";

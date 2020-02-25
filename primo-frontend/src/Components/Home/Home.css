@@ -7,14 +7,39 @@
 }
 
 .homeBodySub {
-    background-color: brown;
+    /* background-color: brown; */
     grid-area: 1 / 1 / 2 / 6;
 }
 
 .gameCarousel{
     grid-area:  2 / 2 / 5 / 5;
+    /* background-color: thistle; */
 }
 
-.homeBlogPosts {
+.homeBlogPostsDiv {
     grid-area:  5 / 2 / 6 / 5;
+}
+
+.homeBlogPostTitle{
+    color: #b21f66;
+    text-decoration: underline;
+}
+
+.homeBlogPostCard {
+    /* margin: 50px; */
+    /* background-color: teal; */
+}
+
+.homeBlogTitle {
+    text-decoration: none;
+    color: #fe346e;
+    margin-left: 1vh;
+    text-decoration: none;
+    font-size: 2vh;
+    font-weight: 800;
+    width: 50%;
+}
+
+.homeBlogTitle:hover {
+    background-color:rgb(254, 52, 110, .10);
 }

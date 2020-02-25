@@ -25,7 +25,7 @@ function GameGuideDetails() {
                         <p>Breadcrumbs go here</p>
                     </div>
                     <h1 className="gameGuideDetailsTitle">Speedrunning guide for Celeste</h1>
-                    <h3 className="gameGuideDetailsAuthor">By: XxSpeedrunKingxX</h3>
+                    <h3 className="gameGuideDetailsAuthor">By: XxSpeedemonKingxX</h3>
                     <p>This is important to remember. 
                         Love isn't like pie. 
                         You don't need to divide it among all your friends and loved ones. 
