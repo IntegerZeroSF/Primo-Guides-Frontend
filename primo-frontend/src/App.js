@@ -3,6 +3,7 @@ import Header from "./Components/Header/Header.js";
 import Footer from "./Components/Footer/Footer.js";
 import Home from "./Components/Home/Home.js";
 import { BrowserRouter, Route, Switch } from "react-router-dom";
+import {Helmet} from "react-helmet";
 
 import BlogList from "./Components/Blog/BlogList";
 import BlogDetails from "./Components/Blog/BlogDetails/BlogDetails.js"
@@ -38,6 +39,9 @@ function App() {
 
   return (
     <div className="App">
+      <Helmet>
+        <title>Primo-Guides</title>
+      </Helmet>
       <Header />
       <header className="App-header" />
       <Switch>
